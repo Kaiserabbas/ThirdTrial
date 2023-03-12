@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Product Landing Page</title>
 </head>
 <body>
-    <section>
+    <section class="Header-logo">
         <div>
             <img src="https://www.greensouq.ae/wp-content/uploads/2021/09/Header-logo.png" alt="logo" width="100px">
         </div>
         <div>
-            <nav>
-                <ul>
+            <nav >
+                <ul class="nav-bar">
                     <li>Features</li>
                     <li>How it works?</li>
                     <li>Prices</li>
@@ -22,32 +23,33 @@
             </nav>
         </div>
     </section>
+    <section style="width: 50%; margin: auto;" >
 
-    <section>
+    <section class="headline">
         <div><h2>Handcrafted, home-made masterpieces</h2></div>
         <div><input type="email" name="email" id="" placeholder="Enter Your Email"></div>
         <div><button>Get Started</button></div>
     </section>
 
-    <section>
-        <div>
+    <section class="product-items">
+        <div class="item">
             <div><img src="https://img.icons8.com/pastel-glyph/1x/hyperlink.png" alt="icon" width="50px"></div>
-            <div><h1>Premium Materials</h1></div>
-            <div><p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></div>
+            <div><h1>Premium Materials</h1>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></div>
         </div>
-        <div>
+        <div class="item">
             <div><img src="https://img.icons8.com/pastel-glyph/1x/hyperlink.png" alt="icon" width="50px"></div>
-            <div><h1>Fast Shipping</h1></div>
-            <div><p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div>
+            <div><h1>Fast Shipping</h1>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div>
         </div>
-        <div>
+        <div class="item">
             <div><img src="https://img.icons8.com/pastel-glyph/1x/hyperlink.png" alt="icon" width="50px"></div>
-            <div><h1>Quality Assurance</h1></div>
-            <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, a. Iure, incidunt vero obcaecati autem, ut, in porro corrupti fuga et odio quis voluptatem a aspernatur? Praesentium velit quo possimus?</p></div>
+            <div><h1>Quality Assurance</h1>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, a. Iure, incidunt vero obcaecati autem, ut, in porro corrupti fuga et odio quis voluptatem a aspernatur? Praesentium velit quo possimus?</p></div>
         </div>
     </section>
 
-    <section>
+    <section class="video">
         <iframe width="420" height="315" src="https://www.youtube.com/embed/eI4an8aSsgw">
         </iframe>
     </section>
@@ -55,40 +57,55 @@
     <section>
         <div>
 
-        <div><div>TENOR TROMBONE</div>
-        <div><h2>$600</h2></div>
-        <div>
-            <ul>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-            </ul>
-        </div> <div>TENOR TROMBONE</div>
-        <div><h2>$600</h2></div>
-        <div>
-            <ul>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-            </ul></div>
-        <div> <div>TENOR TROMBONE</div>
-        <div><h2>$600</h2></div>
-        <div>
-            <ul>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-            </ul></div>
+        <div class="Product">
+            <div class="border">
+                <h3>TENOR TROMBONE</h3>
+                <div><h2>$600</h2></div>
+                <div>
+                    <ul class="pricing">
+                        <li>Lorem ipsum </li>
+                        <li>Lorem ipsum </li>
+                        <li>Lorem ipsum </li>
+                        <li>Lorem ipsum </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border">
+                <div>TENOR TROMBONE</div>
+            <div><h2>$600</h2></div>
+            <div>
+                <ul class="pricing">
+                    <li>Lorem ipsum </li>
+                    <li>Lorem ipsum </li>
+                    <li>Lorem ipsum </li>
+                    <li>Lorem ipsum </li>
+                </ul>
+            </div>
+            </div>
+            <div class="border">
+                <div>
+                    <div>TENOR TROMBONE</div>
+                    <div><h2>$600</h2></div>
+                    <div >
+                           <ul class="pricing">
+                               <li>Lorem ipsum </li>
+                               <li>Lorem ipsum </li>
+                               <li>Lorem ipsum </li>
+                               <li>Lorem ipsum </li>
+                           </ul>
+                    </div>
+            </div>
+          
+           </div>
+        </div>
+    </section>
     </section>
 
     <footer>
-        <div>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Contact</li>
+        <div class="footer">
+            <li style="padding:0px 20px;">Privacy</li>
+            <li style="padding:0px 20px;">Terms</li>
+            <li style="padding:0px 20px;">Contact</li>
         </div>
         <pre>Copyright 2016, Original Trombones</pre>
     </footer>
